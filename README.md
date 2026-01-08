@@ -8,9 +8,6 @@ A full-stack **login system with OTP-based password recovery** built using **Rea
 - [Description](#description)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Flow](#flow)
 - [License](#license)
 
@@ -41,4 +38,13 @@ It demonstrates a complete full-stack architecture: mobile frontend, backend API
 
 ---
 
-
+Flow
+User Login
+    ↓
+Forgot Password
+    ↓
+OTP Generated (DB)
+    ↓
+OTP Verified
+    ↓
+Password Reset
